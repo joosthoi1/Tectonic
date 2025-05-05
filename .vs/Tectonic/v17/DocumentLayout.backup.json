@@ -1,0 +1,488 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\pages\\puzzleselector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\pages\\puzzleselector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\pages\\creatorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\pages\\creatorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\viewmodels\\puzzleselectorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\viewmodels\\puzzleselectorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\providers\\puzzleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\providers\\puzzleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\pages\\solverpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\pages\\solverpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\pages\\solverpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\pages\\solverpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\pages\\creatorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\pages\\creatorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\converters\\borderthicknessconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\converters\\borderthicknessconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\models\\celldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\models\\celldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\models\\positionedcelldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\models\\positionedcelldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\pages\\puzzleselector.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\pages\\puzzleselector.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\models\\savepuzzlemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\models\\savepuzzlemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\converters\\groupcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\converters\\groupcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\providers\\ipuzzleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\providers\\ipuzzleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\colorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\colorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\helpers\\uniformgridhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\helpers\\uniformgridhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\tectonic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\tectonic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|c:\\users\\joostlaoh\\source\\repos\\tectonic\\tectonic\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AA3709-FD2D-4DEF-A2F5-349AF4B75ACD}|Tectonic\\Tectonic.csproj|solutionrelative:tectonic\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PuzzleProvider.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Providers\\PuzzleProvider.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Providers\\PuzzleProvider.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Providers\\PuzzleProvider.cs",
+              "RelativeToolTip": "Tectonic\\Providers\\PuzzleProvider.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwDgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:37:12.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PuzzleSelectorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\ViewModels\\PuzzleSelectorViewModel.cs",
+              "RelativeDocumentMoniker": "Tectonic\\ViewModels\\PuzzleSelectorViewModel.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\ViewModels\\PuzzleSelectorViewModel.cs",
+              "RelativeToolTip": "Tectonic\\ViewModels\\PuzzleSelectorViewModel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwCAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:52:49.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreatorPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\CreatorPage.xaml.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Pages\\CreatorPage.xaml.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\CreatorPage.xaml.cs",
+              "RelativeToolTip": "Tectonic\\Pages\\CreatorPage.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:55:21.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Tectonic\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "Tectonic\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:40:32.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SolverPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\SolverPage.xaml.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Pages\\SolverPage.xaml.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\SolverPage.xaml.cs",
+              "RelativeToolTip": "Tectonic\\Pages\\SolverPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:34:34.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PuzzleSelector.xaml",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\PuzzleSelector.xaml",
+              "RelativeDocumentMoniker": "Tectonic\\Pages\\PuzzleSelector.xaml",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\PuzzleSelector.xaml",
+              "RelativeToolTip": "Tectonic\\Pages\\PuzzleSelector.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T12:49:43.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SolverPage.xaml",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\SolverPage.xaml",
+              "RelativeDocumentMoniker": "Tectonic\\Pages\\SolverPage.xaml",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\SolverPage.xaml",
+              "RelativeToolTip": "Tectonic\\Pages\\SolverPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T15:34:29.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Tectonic\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Tectonic\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:35:39.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Tectonic\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\MainWindow.xaml",
+              "RelativeToolTip": "Tectonic\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-30T14:35:51.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CellData.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Models\\CellData.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Models\\CellData.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Models\\CellData.cs",
+              "RelativeToolTip": "Tectonic\\Models\\CellData.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:39:12.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BorderThicknessConverter.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Converters\\BorderThicknessConverter.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Converters\\BorderThicknessConverter.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Converters\\BorderThicknessConverter.cs",
+              "RelativeToolTip": "Tectonic\\Converters\\BorderThicknessConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:58:31.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Tectonic\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Tectonic\\Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T15:43:39.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreatorPage.xaml",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\CreatorPage.xaml",
+              "RelativeDocumentMoniker": "Tectonic\\Pages\\CreatorPage.xaml",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\CreatorPage.xaml",
+              "RelativeToolTip": "Tectonic\\Pages\\CreatorPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T15:52:01.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Tectonic\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:39:23.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameBoard.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\GameBoard.cs",
+              "RelativeDocumentMoniker": "Tectonic\\GameBoard.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\GameBoard.cs",
+              "RelativeToolTip": "Tectonic\\GameBoard.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAASwEIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:16:32.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Tectonic\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:43:48.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PositionedCelldata.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Models\\PositionedCelldata.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Models\\PositionedCelldata.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Models\\PositionedCelldata.cs",
+              "RelativeToolTip": "Tectonic\\Models\\PositionedCelldata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:14:11.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PuzzleSelector.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\PuzzleSelector.xaml.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Pages\\PuzzleSelector.xaml.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Pages\\PuzzleSelector.xaml.cs",
+              "RelativeToolTip": "Tectonic\\Pages\\PuzzleSelector.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:52:12.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SavePuzzleModel.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Models\\SavePuzzleModel.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Models\\SavePuzzleModel.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Models\\SavePuzzleModel.cs",
+              "RelativeToolTip": "Tectonic\\Models\\SavePuzzleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:17:35.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GroupColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Converters\\GroupColorConverter.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Converters\\GroupColorConverter.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Converters\\GroupColorConverter.cs",
+              "RelativeToolTip": "Tectonic\\Converters\\GroupColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:39:33.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPuzzleProvider.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Providers\\IPuzzleProvider.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Providers\\IPuzzleProvider.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Providers\\IPuzzleProvider.cs",
+              "RelativeToolTip": "Tectonic\\Providers\\IPuzzleProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:41:20.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Tectonic\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\App.xaml.cs",
+              "RelativeToolTip": "Tectonic\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:50:37.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\App.xaml",
+              "RelativeDocumentMoniker": "Tectonic\\App.xaml",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\App.xaml",
+              "RelativeToolTip": "Tectonic\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T15:34:13.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ColorGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\ColorGenerator.cs",
+              "RelativeDocumentMoniker": "Tectonic\\ColorGenerator.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\ColorGenerator.cs",
+              "RelativeToolTip": "Tectonic\\ColorGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:42:55.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BoolToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Converters\\BoolToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeToolTip": "Tectonic\\Converters\\BoolToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:43:58.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UniformGridHelper.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Helpers\\UniformGridHelper.cs",
+              "RelativeDocumentMoniker": "Tectonic\\Helpers\\UniformGridHelper.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Helpers\\UniformGridHelper.cs",
+              "RelativeToolTip": "Tectonic\\Helpers\\UniformGridHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:03:40.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Tectonic.csproj",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Tectonic.csproj",
+              "RelativeDocumentMoniker": "Tectonic\\Tectonic.csproj",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Tectonic.csproj",
+              "RelativeToolTip": "Tectonic\\Tectonic.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-01T15:34:20.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Tectonic\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\AssemblyInfo.cs",
+              "RelativeToolTip": "Tectonic\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:00:33.19Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
