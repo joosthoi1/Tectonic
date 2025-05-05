@@ -38,7 +38,10 @@
 
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Border BorderBrush="Gray" Margin="0">
+                    <Border BorderBrush="Gray" Margin="0" Background="Transparent" ToolTip="Click and drag the cell to copy the group to other cells"
+                            MouseLeftButtonDown="Border_MouseLeftButtonDown"
+                            MouseMove="Border_MouseMove"
+                            MouseLeftButtonUp="Border_MouseLeftButtonUp">
                         <Border.BorderThickness>
                             <MultiBinding Converter="{StaticResource BorderThicknessConverter}">
                                 <Binding />
@@ -73,16 +76,19 @@
                             <TextBox Grid.Row="1" Text="{Binding BigNumber}" FontSize="15" FontWeight="Bold" Width="20"
                                    HorizontalAlignment="Center" VerticalAlignment="Center" TabIndex="1" GotKeyboardFocus="TextBox_GotKeyboardFocus"
                                    Visibility="{Binding HasSmallNumbers, Converter={StaticResource InverseBoolToVisibilityConverter}}"/>
-                                <TextBox Grid.Row="1" Text="{Binding Group}" FontSize="15" FontWeight="Bold" Width="20"
-                                   HorizontalAlignment="Center" VerticalAlignment="Center" TabIndex="2" GotKeyboardFocus="TextBox_GotKeyboardFocus"
-                                   Visibility="{Binding HasSmallNumbers, Converter={StaticResource InverseBoolToVisibilityConverter}}">
-                                    <TextBox.Foreground>
-                                        <MultiBinding Converter="{StaticResource GroupColorConverter}">
-                                            <Binding Path="DataContext.Board.Colors" RelativeSource="{RelativeSource AncestorType=Page}"/>
-                                            <Binding Path="Group"/>
-                                        </MultiBinding>
-                                    </TextBox.Foreground>
-                                </TextBox>
+                            <TextBox Grid.Row="1" Text="{Binding Group, UpdateSourceTrigger=PropertyChanged}" FontSize="15" FontWeight="Bold" Width="20"
+                                HorizontalAlignment="Center" VerticalAlignment="Center" TabIndex="2" GotKeyboardFocus="TextBox_GotKeyboardFocus"
+                                Visibility="{Binding HasSmallNumbers, Converter={StaticResource InverseBoolToVisibilityConverter}}"
+                                
+                                
+                                     >
+                                <TextBox.Foreground>
+                                    <MultiBinding Converter="{StaticResource GroupColorConverter}">
+                                        <Binding Path="DataContext.Board.Colors" RelativeSource="{RelativeSource AncestorType=Page}"/>
+                                        <Binding Path="Group"/>
+                                    </MultiBinding>
+                                </TextBox.Foreground>
+                            </TextBox>
                             </StackPanel>
                         </Grid>
                     </Border>

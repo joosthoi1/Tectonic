@@ -9,7 +9,7 @@
       Title="MainPage">
 
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button Content="Go to New Puzzle Creator" Width="150" Click="GoToPageOne_Click" Margin="40" />
-        <Button Content="Go to Puzzle List" Width="150" Click="GoToPageTwo_Click" />
+        <Button Content="Create new puzzle" Width="150" Click="GoToPageOne_Click" Margin="40" />
+        <Button Content="Go to puzzle List" Width="150" Click="GoToPageTwo_Click" />
     </StackPanel>
 </Page>
