@@ -44,7 +44,11 @@ public class MainViewModel : INotifyPropertyChanged
     {
         Board = puzzleProvider.GetPuzzleByName(name);
     }
-
+    public void LoadPuzzle()
+    {
+        GameBoard puzzle = new GameBoard(9, 11, new int[9 * 11], new int[9 * 11], puzzleProvider.GetNameSuffix("New Puzzle"));
+        Board = puzzle;
+    }
     public void LoadPuzzle(GameBoard puzzle)
     {
         Board = puzzle;
