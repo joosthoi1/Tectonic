@@ -23,6 +23,7 @@
                                     <TextBlock Text="{Binding}" VerticalAlignment="Center" Margin="10"/>
                                     <Button Content="Solve" Command="{Binding DataContext.SolvePuzzleCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}" CommandParameter="{Binding}"  Margin="10"/>
                                     <Button Content="Edit" Command="{Binding DataContext.EditPuzzleCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}" CommandParameter="{Binding}"  Margin="10"/>
+                                    <Button Content="Remove" Command="{Binding DataContext.RemovePuzzleCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}" CommandParameter="{Binding}"  Margin="10"/>
                                 </StackPanel>
                             </Border>
                         </DataTemplate>

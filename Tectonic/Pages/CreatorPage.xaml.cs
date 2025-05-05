@@ -37,7 +37,7 @@ namespace Tectonic
         public CreatorPage(int x, int y, string title)
         {
             InitializeComponent();
-            GameBoard puzzle = new GameBoard(x, y, new int[x*y], new int[x*y], title);
+            GameBoard puzzle = new GameBoard(x, y, title);
             (this.DataContext as MainViewModel).LoadPuzzle(puzzle);
         }
         private void TextBox_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)

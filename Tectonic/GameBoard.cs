@@ -85,10 +85,10 @@ public class GameBoard : INotifyPropertyChanged
         Title = title;
         Colors = ColorGenerator.GenerateColors(x*y);
         List<PositionedCelldata> GameCells = new List<PositionedCelldata>();
-        for (int i = 0; i < groups.Length; i++)
+        for (int i = 0; i < x*y; i++)
         {
-            int group = groups[i];
-            int number = numbers[i];
+            int group = i;
+            int number = 0;
             Cells.Add(new PositionedCelldata() { ParentBoard = this, Group = group, BigNumber = number == 0 ? null : number});
         }
 

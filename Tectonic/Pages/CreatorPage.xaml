@@ -22,78 +22,82 @@
         <viewModels:MainViewModel/>
     </Page.DataContext>
 
-    <DockPanel LastChildFill="True" >
+    <DockPanel LastChildFill="True">
         <TextBox Text="{Binding Board.Title}" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
+
         <!-- Bottom Button -->
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Center">
             <Button Content="Save" Height="40" Margin="5" Padding="10,0"
-            Command="{Binding WriteGroupsCommand}" />
+                Command="{Binding WriteGroupsCommand}" />
         </StackPanel>
-        <ItemsControl ItemsSource="{Binding Board.Cells}">
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <UniformGrid helpers:UniformGridHelper.BoundColumns="{Binding DataContext.Board.X, RelativeSource={RelativeSource AncestorType=ItemsControl}}" Height="500" Width="500"/>
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
 
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <Border BorderBrush="Gray" Margin="0" Background="Transparent" ToolTip="Click and drag the cell to copy the group to other cells"
+        <!-- Grid with cells -->
+        <Viewbox Stretch="Uniform" StretchDirection="Both">
+            <ItemsControl ItemsSource="{Binding Board.Cells}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid helpers:UniformGridHelper.BoundColumns="{Binding DataContext.Board.X, RelativeSource={RelativeSource AncestorType=ItemsControl}}" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="Gray" Background="Transparent" ToolTip="Click and drag the cell to copy the group to other cells"
                             MouseLeftButtonDown="Border_MouseLeftButtonDown"
                             MouseMove="Border_MouseMove"
-                            MouseLeftButtonUp="Border_MouseLeftButtonUp">
-                        <Border.BorderThickness>
-                            <MultiBinding Converter="{StaticResource BorderThicknessConverter}">
-                                <Binding />
-                                <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=Page}"/>
-                                <Binding Path="GroupChanged"/>
-                            </MultiBinding>
-                        </Border.BorderThickness>
-                        <Grid Width="Auto" Height="Auto" Margin="0">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
+                            MouseLeftButtonUp="Border_MouseLeftButtonUp"
+                            Height="45"
+                            Width="55"
+                                Margin="0">
+                            <Border.BorderThickness>
+                                <MultiBinding Converter="{StaticResource BorderThicknessConverter}">
+                                    <Binding />
+                                    <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=Page}"/>
+                                    <Binding Path="GroupChanged"/>
+                                </MultiBinding>
+                            </Border.BorderThickness>
+                            <Grid Width="Auto" Height="Auto" Margin="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
 
-                            <!-- Small Numbers -->
-                            <ItemsControl ItemsSource="{Binding SmallNumbers}" 
-                                      Visibility="{Binding HasSmallNumbers, Converter={StaticResource BoolToVisibilityConverter}}">
-                                <ItemsControl.ItemsPanel>
-                                    <ItemsPanelTemplate>
-                                        <WrapPanel HorizontalAlignment="Center"/>
-                                    </ItemsPanelTemplate>
-                                </ItemsControl.ItemsPanel>
-                                <ItemsControl.ItemTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding}" FontSize="10" Margin="2"/>
-                                    </DataTemplate>
-                                </ItemsControl.ItemTemplate>
-                            </ItemsControl>
+                                <!-- Small Numbers -->
+                                <ItemsControl ItemsSource="{Binding SmallNumbers}" 
+                                          Visibility="{Binding HasSmallNumbers, Converter={StaticResource BoolToVisibilityConverter}}">
+                                    <ItemsControl.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <WrapPanel HorizontalAlignment="Center"/>
+                                        </ItemsPanelTemplate>
+                                    </ItemsControl.ItemsPanel>
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding}" FontSize="10" Margin="2"/>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
 
-                            <!-- Big Number -->
-                            <StackPanel>
-                                
-                            <TextBox Grid.Row="1" Text="{Binding BigNumber}" FontSize="15" FontWeight="Bold" Width="20"
-                                   HorizontalAlignment="Center" VerticalAlignment="Center" TabIndex="1" GotKeyboardFocus="TextBox_GotKeyboardFocus"
-                                   Visibility="{Binding HasSmallNumbers, Converter={StaticResource InverseBoolToVisibilityConverter}}"/>
-                            <TextBox Grid.Row="1" Text="{Binding Group, UpdateSourceTrigger=PropertyChanged}" FontSize="15" FontWeight="Bold" Width="20"
-                                HorizontalAlignment="Center" VerticalAlignment="Center" TabIndex="2" GotKeyboardFocus="TextBox_GotKeyboardFocus"
-                                Visibility="{Binding HasSmallNumbers, Converter={StaticResource InverseBoolToVisibilityConverter}}"
-                                
-                                
-                                     >
-                                <TextBox.Foreground>
-                                    <MultiBinding Converter="{StaticResource GroupColorConverter}">
-                                        <Binding Path="DataContext.Board.Colors" RelativeSource="{RelativeSource AncestorType=Page}"/>
-                                        <Binding Path="Group"/>
-                                    </MultiBinding>
-                                </TextBox.Foreground>
-                            </TextBox>
-                            </StackPanel>
-                        </Grid>
-                    </Border>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+                                <!-- Big Number -->
+                                <StackPanel>
+                                    <TextBox Grid.Row="1" Text="{Binding BigNumber}" FontSize="15" FontWeight="Bold" Width="20"
+                                         HorizontalAlignment="Center" VerticalAlignment="Center" TabIndex="1" GotKeyboardFocus="TextBox_GotKeyboardFocus"
+                                         Visibility="{Binding HasSmallNumbers, Converter={StaticResource InverseBoolToVisibilityConverter}}"/>
+                                    <TextBox Grid.Row="1" Text="{Binding Group, UpdateSourceTrigger=PropertyChanged}" FontSize="15" FontWeight="Bold" Width="20"
+                                         HorizontalAlignment="Center" VerticalAlignment="Center" TabIndex="2" GotKeyboardFocus="TextBox_GotKeyboardFocus"
+                                         Visibility="{Binding HasSmallNumbers, Converter={StaticResource InverseBoolToVisibilityConverter}}">
+                                        <TextBox.Foreground>
+                                            <MultiBinding Converter="{StaticResource GroupColorConverter}">
+                                                <Binding Path="DataContext.Board.Colors" RelativeSource="{RelativeSource AncestorType=Page}"/>
+                                                <Binding Path="Group"/>
+                                            </MultiBinding>
+                                        </TextBox.Foreground>
+                                    </TextBox>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Viewbox>
     </DockPanel>
 </Page>
