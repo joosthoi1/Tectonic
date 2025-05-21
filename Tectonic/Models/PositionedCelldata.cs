@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using PuzzleSolver.Converters.Border;
 using PuzzleSolver.Models.Puzzles;
 
 namespace PuzzleSolver.Models
@@ -44,5 +45,7 @@ namespace PuzzleSolver.Models
         }
         [JsonIgnore]
         public int GroupChanged => 0;
+
+        public CellBorderInfo CellBorders { get; set; }
     }
 }

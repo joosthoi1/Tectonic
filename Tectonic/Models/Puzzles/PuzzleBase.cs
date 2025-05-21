@@ -61,15 +61,11 @@ public abstract class PuzzleBase : IGameBoard, INotifyPropertyChanged
     }
     protected bool HasTopBorder(PositionedCelldata cell)
     {
-        var (row, col) = GetPosition(cell);
-        var top = GetCellAt(row - 1, col);
-        return top == null;
+        return GetPosition(cell).Row - 1 < 0;
     }
     protected bool HasLeftBorder(PositionedCelldata cell)
     {
-        var (row, col) = GetPosition(cell);
-        var left = GetCellAt(row, col - 1);
-        return left == null;
+        return GetPosition(cell).Col-1 < 0;
     }
     protected bool HasRightBorder(PositionedCelldata cell)
     {

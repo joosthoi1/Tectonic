@@ -14,6 +14,7 @@
         <conv:BorderThicknessConverter x:Key="BorderThicknessConverter"/>
         <conv:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
         <conv:InverseBoolToVisibilityConverter x:Key="InverseBoolToVisibilityConverter"/>
+        <conv:FullBorderConverter x:Key="FullBorderConverter"/>
     </Page.Resources>
 
     <Page.DataContext>
@@ -49,15 +50,76 @@
 
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Border BorderBrush="Gray" Background="Transparent" Margin="0" Width="55" Height="45">
-                            <Border.BorderThickness>
-                                <MultiBinding Converter="{StaticResource BorderThicknessConverter}">
-                                    <Binding />
-                                    <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=Page}"/>
-                                    <Binding Path="GroupChanged"/>
-                                </MultiBinding>
-                            </Border.BorderThickness>
+                        <Grid Background="Transparent" Margin="0" Width="55" Height="45" >
+
+
+                            <!-- LEFT BORDER -->
+                            <Border>
+                                <Border.BorderThickness>
+                                    <MultiBinding Converter="{StaticResource FullBorderConverter}" ConverterParameter="LeftThickness">
+                                        <Binding Path="."/>
+                                        <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=ItemsControl}"/>
+                                    </MultiBinding>
+                                </Border.BorderThickness>
+                                <Border.BorderBrush>
+                                    <MultiBinding Converter="{StaticResource FullBorderConverter}" ConverterParameter="LeftBrush">
+                                        <Binding Path="."/>
+                                        <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=ItemsControl}"/>
+                                    </MultiBinding>
+                                </Border.BorderBrush>
+                            </Border>
+
+                            <!-- TOP BORDER -->
+                            <Border>
+                                <Border.BorderThickness>
+                                    <MultiBinding Converter="{StaticResource FullBorderConverter}" ConverterParameter="TopThickness">
+                                        <Binding Path="."/>
+                                        <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=ItemsControl}"/>
+                                    </MultiBinding>
+                                </Border.BorderThickness>
+                                <Border.BorderBrush>
+                                    <MultiBinding Converter="{StaticResource FullBorderConverter}" ConverterParameter="TopBrush">
+                                        <Binding Path="."/>
+                                        <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=ItemsControl}"/>
+                                    </MultiBinding>
+                                </Border.BorderBrush>
+                            </Border>
+
+                            <!-- RIGHT BORDER -->
+                            <Border>
+                                <Border.BorderThickness>
+                                    <MultiBinding Converter="{StaticResource FullBorderConverter}" ConverterParameter="RightThickness">
+                                        <Binding Path="."/>
+                                        <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=ItemsControl}"/>
+                                    </MultiBinding>
+                                </Border.BorderThickness>
+                                <Border.BorderBrush>
+                                    <MultiBinding Converter="{StaticResource FullBorderConverter}" ConverterParameter="RightBrush">
+                                        <Binding Path="."/>
+                                        <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=ItemsControl}"/>
+                                    </MultiBinding>
+                                </Border.BorderBrush>
+                            </Border>
+
+                            <!-- BOTTOM BORDER -->
+                            <Border>
+                                <Border.BorderThickness>
+                                    <MultiBinding Converter="{StaticResource FullBorderConverter}" ConverterParameter="BottomThickness">
+                                        <Binding Path="."/>
+                                        <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=ItemsControl}"/>
+                                    </MultiBinding>
+                                </Border.BorderThickness>
+                                <Border.BorderBrush>
+                                    <MultiBinding Converter="{StaticResource FullBorderConverter}" ConverterParameter="BottomBrush">
+                                        <Binding Path="."/>
+                                        <Binding Path="DataContext.Board" RelativeSource="{RelativeSource AncestorType=ItemsControl}"/>
+                                    </MultiBinding>
+                                </Border.BorderBrush>
+                            </Border>
+
+
                             <Grid Width="Auto" Height="Auto" Margin="0">
+                                
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition/>
@@ -83,7 +145,7 @@
                                            HorizontalAlignment="Center" VerticalAlignment="Center"
                                            Visibility="{Binding HasSmallNumbers, Converter={StaticResource InverseBoolToVisibilityConverter}}"/>
                             </Grid>
-                        </Border>
+                        </Grid>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>

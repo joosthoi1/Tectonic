@@ -9,18 +9,18 @@ namespace PuzzleSolver.Converters;
 
 public class BorderThicknessConverter : IMultiValueConverter
 {
-    static double boldSize = 3;
-    static double thinSize = 0.5;
+    static double _boldSize = 3;
+    static double _thinSize = 0.5;
     public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
     {
         if (values[0] is PositionedCelldata cell && values[1] is IGameBoard grid)
         {
             var (top, right, bottom, left) = grid.GetBorders(cell);
             return new Thickness(
-                left ? boldSize : thinSize,
-                top ? boldSize : thinSize,
-                right ? boldSize : thinSize,
-                bottom ? boldSize : thinSize
+                left ? _boldSize : _thinSize,
+                top ? _boldSize : _thinSize,
+                right ? _boldSize : _thinSize,
+                bottom ? _boldSize : _thinSize
                 );
         }
 
