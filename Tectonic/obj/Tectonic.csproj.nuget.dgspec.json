@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Tectonic.csproj": {}
+    "C:\\Users\\Joost Laoh\\source\\repos\\Tectonic\\Tectonic\\Tectonic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Tectonic.csproj": {
+    "C:\\Users\\Joost Laoh\\source\\repos\\Tectonic\\Tectonic\\Tectonic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Tectonic.csproj",
+        "projectUniqueName": "C:\\Users\\Joost Laoh\\source\\repos\\Tectonic\\Tectonic\\Tectonic.csproj",
         "projectName": "Tectonic",
-        "projectPath": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\Tectonic.csproj",
-        "packagesPath": "C:\\Users\\JoostLaoh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoostLaoh\\source\\repos\\Tectonic\\Tectonic\\obj\\",
+        "projectPath": "C:\\Users\\Joost Laoh\\source\\repos\\Tectonic\\Tectonic\\Tectonic.csproj",
+        "packagesPath": "C:\\Users\\Joost Laoh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joost Laoh\\source\\repos\\Tectonic\\Tectonic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JoostLaoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joost Laoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "c:\\program files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
@@ -68,7 +70,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

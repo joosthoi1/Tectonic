@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Controls.Primitives;
 using System.Windows;
 
-namespace Tectonic.Helpers;
+namespace PuzzleSolver.Helpers;
 
 public static class UniformGridHelper
 {

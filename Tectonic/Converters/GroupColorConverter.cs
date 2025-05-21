@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace Tectonic.Converters
+namespace PuzzleSolver.Converters
 {
     class GroupColorConverter : IMultiValueConverter
     {

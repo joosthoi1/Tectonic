@@ -13,11 +13,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Tectonic.Models;
-using Tectonic.Providers;
-using Tectonic.ViewModels;
+using PuzzleSolver.Models;
+using PuzzleSolver.Models.Puzzles;
+using PuzzleSolver.Providers;
+using PuzzleSolver.ViewModels;
 
-namespace Tectonic
+namespace PuzzleSolver
 {
     /// <summary>
     /// Interaction logic for CreatorPage.xaml
@@ -34,10 +35,10 @@ namespace Tectonic
             InitializeComponent();
             (this.DataContext as MainViewModel).LoadPuzzle(name);
         }
-        public CreatorPage(int x, int y, string title)
+        public CreatorPage(int x, int y, string title, PuzzleType type)
         {
             InitializeComponent();
-            GameBoard puzzle = new GameBoard(x, y, title);
+            IGameBoard puzzle = PuzzleCreator.CreatePuzzle(x, y, title, type);
             (this.DataContext as MainViewModel).LoadPuzzle(puzzle);
         }
         private void TextBox_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)

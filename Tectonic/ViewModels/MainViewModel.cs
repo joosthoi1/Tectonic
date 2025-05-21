@@ -7,29 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using Tectonic.Commands;
-using Tectonic.Models;
-using Tectonic.Pages;
-using Tectonic.Providers;
+using PuzzleSolver.Commands;
+using PuzzleSolver.Models;
+using PuzzleSolver.Models.Puzzles;
+using PuzzleSolver.Pages;
+using PuzzleSolver.Providers;
 
-namespace Tectonic.ViewModels;
+namespace PuzzleSolver.ViewModels;
 
 public class MainViewModel : INotifyPropertyChanged
 {
-    private GameBoard board;
+    private IGameBoard board;
 
-    public GameBoard Board { get => board; set { board = value; OnPropertyChanged(nameof(Board)); } }
+    public IGameBoard Board { get => board; set { board = value; OnPropertyChanged(nameof(Board)); } }
     public ICommand CheckNextCommand { get; }
     public ICommand CheckAllCommand { get; }
     public ICommand WriteGroupsCommand { get; }
     public ICommand WriteValuesCommand { get; }
+    public ICommand NextStateCommand { get; }
+    public ICommand PreviousStateCommand { get; }
     private PuzzleProvider puzzleProvider { get; init; }
 
     public MainViewModel()
     {
 
         puzzleProvider = new PuzzleProvider("puzzles.json");
-        Board = new GameBoard(9, 11, puzzleProvider.GetNameSuffix("New Puzzle"));
+        Board = new Tectonic(9, 11, puzzleProvider.GetNameSuffix("New Puzzle"));
 
         CheckNextCommand = new RelayCommand(() => _ = Board.CheckNext(false));
         CheckAllCommand = new RelayCommand(() => _ = Board.CheckNext(true));
@@ -39,6 +42,14 @@ public class MainViewModel : INotifyPropertyChanged
 
             MainWindow.AppNavigationService.Navigate(new PuzzleSelector());
         });
+        NextStateCommand = new RelayCommand(() =>
+        {
+            Board.NextState();
+        }, () => Board.HasNextState);
+        PreviousStateCommand = new RelayCommand(() =>
+        {
+            Board.PreviousState();
+        }, () => Board.HasPreviousState);
     }
     public void LoadPuzzle(string name)
     {
@@ -46,10 +57,10 @@ public class MainViewModel : INotifyPropertyChanged
     }
     public void LoadPuzzle()
     {
-        GameBoard puzzle = new GameBoard(9, 11, puzzleProvider.GetNameSuffix("New Puzzle"));
+        IGameBoard puzzle = new Tectonic(9, 11, puzzleProvider.GetNameSuffix("New Puzzle"));
         Board = puzzle;
     }
-    public void LoadPuzzle(GameBoard puzzle)
+    public void LoadPuzzle(IGameBoard puzzle)
     {
         Board = puzzle;
     }

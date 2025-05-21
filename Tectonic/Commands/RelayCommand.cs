@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace Tectonic.Commands;
+namespace PuzzleSolver.Commands;
 public class RelayCommand : ICommand
 {
     private readonly Action _execute;

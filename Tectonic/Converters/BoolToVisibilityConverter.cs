@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows;
 
-namespace Tectonic.Converters;
+namespace PuzzleSolver.Converters;
 
 public class BoolToVisibilityConverter : IValueConverter
 {

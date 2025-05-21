@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Tectonic.Models;
+using PuzzleSolver.Models;
+using PuzzleSolver.Models.Puzzles;
 
-namespace Tectonic.Providers
+namespace PuzzleSolver.Providers
 {
-
     class PuzzleProvider : IPuzzleProvider
     {
         private readonly string _filePath;
@@ -50,17 +50,18 @@ namespace Tectonic.Providers
             return title + i;
         }
 
-        public GameBoard? GetPuzzleByName(string title)
+        public IGameBoard GetPuzzleByName(string title)
         {
             _puzzles.TryGetValue(title, out var puzzleModel);
-            if (puzzleModel is null) return new GameBoard(9, 11, GetNameSuffix(title));
-            GameBoard puzzle = new GameBoard(puzzleModel.X, puzzleModel.Y, puzzleModel.Values, puzzleModel.Groups, title);
+            if (puzzleModel is null) return PuzzleCreator.CreatePuzzle(9, 11, GetNameSuffix(title), PuzzleType.Tectonic);
+
+            IGameBoard puzzle = PuzzleCreator.CreatePuzzle(puzzleModel.X, puzzleModel.Y, puzzleModel.Values, puzzleModel.Groups, title, puzzleModel.Type);
             return puzzle;
         }
 
         public IEnumerable<string> GetPuzzleNames() => _puzzles.Keys;
 
-        public void SavePuzzle(GameBoard puzzle)
+        public void SavePuzzle(IGameBoard puzzle)
         {
             SavePuzzleModel puzzleModel = new SavePuzzleModel()
             {
@@ -68,7 +69,7 @@ namespace Tectonic.Providers
                 Y = puzzle.Y,
                 Groups = puzzle.Cells.Select((c) => c.Group).ToArray(),
                 Values = puzzle.Cells.Select((c) => c.BigNumber ?? 0).ToArray(),
-
+                Type = puzzle.PuzzleType
             };
             _puzzles[puzzle.Title ?? "test"] = puzzleModel;
             SaveAll();

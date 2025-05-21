@@ -27,3 +27,33 @@ C:\Users\JoostLaoh\source\repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages
 C:\Users\JoostLaoh\source\repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\MainPage.baml
 C:\Users\JoostLaoh\source\repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\PuzzleSelector.baml
 C:\Users\JoostLaoh\source\repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\SolverPage.baml
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\bin\Debug\net8.0-windows\Tectonic.exe
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\bin\Debug\net8.0-windows\Tectonic.deps.json
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\bin\Debug\net8.0-windows\Tectonic.runtimeconfig.json
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\bin\Debug\net8.0-windows\Tectonic.dll
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\bin\Debug\net8.0-windows\Tectonic.pdb
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\CreatorPage.g.cs
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\MainPage.g.cs
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\PuzzleSelector.g.cs
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\SolverPage.g.cs
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic_MarkupCompile.cache
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic_MarkupCompile.lref
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\CreatorPage.baml
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\MainPage.baml
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\PuzzleSelector.baml
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Pages\SolverPage.baml
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic.g.resources
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic.AssemblyInfoInputs.cache
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic.AssemblyInfo.cs
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic.csproj.CoreCompileInputs.cache
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic.sourcelink.json
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic.dll
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\refint\Tectonic.dll
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic.pdb
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\Tectonic.genruntimeconfig.cache
+C:\Users\Joost Laoh\Source\Repos\Tectonic\Tectonic\obj\Debug\net8.0-windows\ref\Tectonic.dll

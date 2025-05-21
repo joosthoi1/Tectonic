@@ -8,9 +8,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Tectonic.ViewModels;
+using PuzzleSolver.ViewModels;
 
-namespace Tectonic
+namespace PuzzleSolver
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

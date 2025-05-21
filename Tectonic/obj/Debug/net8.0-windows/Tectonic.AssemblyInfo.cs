@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tectonic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17daba69098130347bfd163328e5a442bbdb942c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tectonic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tectonic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

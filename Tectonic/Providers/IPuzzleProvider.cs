@@ -1,10 +1,12 @@
-﻿namespace Tectonic.Providers
+﻿using PuzzleSolver.Models.Puzzles;
+
+namespace PuzzleSolver.Providers
 {
     interface IPuzzleProvider
     {
         bool DeletePuzzle(string title);
-        GameBoard? GetPuzzleByName(string title);
+        IGameBoard? GetPuzzleByName(string title);
         IEnumerable<string> GetPuzzleNames();
-        void SavePuzzle(GameBoard puzzle);
+        void SavePuzzle(IGameBoard puzzle);
     }
 }

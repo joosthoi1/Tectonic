@@ -2,19 +2,26 @@
 using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
-using Tectonic.Models;
+using PuzzleSolver.Models;
+using PuzzleSolver.Models.Puzzles;
 
-namespace Tectonic.Converters;
+namespace PuzzleSolver.Converters;
 
 public class BorderThicknessConverter : IMultiValueConverter
 {
+    static double boldSize = 3;
+    static double thinSize = 0.5;
     public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
     {
-        if (values[0] is PositionedCelldata cell && values[1] is GameBoard grid)
+        if (values[0] is PositionedCelldata cell && values[1] is IGameBoard grid)
         {
-            bool right = grid.HasRightBorder(cell);
-            bool bottom = grid.HasBottomBorder(cell);
-            return new Thickness(1, 1, right ? 3 : 1, bottom ? 3 : 1);
+            var (top, right, bottom, left) = grid.GetBorders(cell);
+            return new Thickness(
+                left ? boldSize : thinSize,
+                top ? boldSize : thinSize,
+                right ? boldSize : thinSize,
+                bottom ? boldSize : thinSize
+                );
         }
 
         return new Thickness(0);

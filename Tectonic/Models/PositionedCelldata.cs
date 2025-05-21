@@ -5,13 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using PuzzleSolver.Models.Puzzles;
 
-namespace Tectonic.Models
+namespace PuzzleSolver.Models
 {
     public class PositionedCelldata : CellData
     {
         [JsonIgnore]
-        public GameBoard ParentBoard { get; set; }
+        public IGameBoard ParentBoard { get; set; }
         private int _group;
         public int Group {
             get => _group;
